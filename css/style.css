@@ -1,3 +1,10 @@
+
+
+
+
+
+
+/*Resorts Page CSS Styling*/
 .editText{
     text-align: center;
     margin-top: 1%;
@@ -6,4 +13,8 @@
 #expandButton{
     margin: 0 auto;
     display: block;
+}
+#navLink{
+    margin-left: -4%;
+    margin-right: -4%;
 }
