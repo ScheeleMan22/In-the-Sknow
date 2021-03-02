@@ -26,6 +26,7 @@
 }
 #mountImg{
     margin-right: 4%;
+    border-radius: 20px;
 }
 #amenText{
     display:inline-block;
@@ -33,4 +34,9 @@
 }
 #resortName{
     display:inline-block;
+}
+#learnButton{
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
 }
