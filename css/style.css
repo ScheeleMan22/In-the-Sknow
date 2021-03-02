@@ -24,6 +24,10 @@
 .list-group{
     background-color: red;
 }
-#breckImg{
+#mountImg{
     margin-right: 4%;
+}
+#amenText{
+    display:inline-block;
+    padding: 5%;
 }
