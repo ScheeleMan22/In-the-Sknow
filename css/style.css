@@ -186,29 +186,130 @@ footer div.social-footer a{
 }
 
 /*Resorts Page CSS Styling*/
+
 .editText{
     text-align: center;
-    margin-top: 1%;
-    display: block;
+    /*margin-top: 5%;*/
+    /*display: block;*/
+    background-color: #C1D1DC;
+    margin-bottom: -38px;
+    color: black;
 }
+
+
+.editSpace .editText{
+    height: 100px;
+    line-height: 75px;
+}
+
 #expandButton{
     margin: 0 auto;
     display: block;
+    background-color: hsl(44, 98%, 59%);
+    border-radius: 10px;
+    border-color: #FEFEFE;
+    color:black;
+    border-width: 4px;
+    transform: translate(0, 45%);
+    width:200px;
 }
+#expandButton:hover {
+    background-color: black;
+    color:#FEFEFE;
+  }
 #navLink{
     margin-left: -4%;
     margin-right: -4%;
+    height: auto;
 }
-.bodyContent{
-    background-color: red;
+.list-group-flush{
+    background-color: #04446C;
+    padding-top: 1%;
+    padding-bottom: .5%;
+    border-color: black;
+    border-width: 2%;
+    /*margin-left: -12%;*/
 }
-.list-group{
-    background-color: red;
+#sections{
+    background-color: #45738F;
+    max-width: 100%;
 }
 #mountImg{
     margin-right: 4%;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    display:inline-block;
+    box-shadow: 0px 3px #3B6077;
+}
+#runsImg{
+    margin-right: 4%;
+    border-radius: 20px;
+    display:inline-block;
+    transform: translate(285%, -200%);
+    box-shadow: -1.5px 3px #3B6077;
+}
+#amenImg{
+    margin-right: 4%;
+    border-radius: 20px;
+    display: inline-block;
+    transform: translate(130%, 2%);
+ 
 }
 #amenText{
-    display:inline-block;
+    display: inline-block;
+    position:absolute;
     padding: 5%;
+    color:#FEFEFE;
+    overflow: hidden;
+    max-width: 60ch;
+    margin-top: 2%;
+    margin-left: -4%;
+    
 }
+#resortName{
+    display:inline-flex;
+    position: absolute;
+    color: #FEFEFE;
+    text-shadow: .5px 3.5px #3B6077;
+    margin-top: 2%;
+}
+
+
+
+
+
+
+.container {
+    position: relative;
+    width: 100%;
+    margin: 2%;
+  }
+
+
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-215%, 140%);
+    -ms-transform: translate(50%, 50%);
+    background-color: #FDC62E;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 229.5px;
+    height: auto;
+    text-align: center;
+    box-shadow: 0px 1.5px #000000;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+    color:#FEFEFE;
+  }
