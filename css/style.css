@@ -13,9 +13,14 @@ ul {
     justify-content: center;
 }
 
+.foot-items li a:hover{
+    color: #04446C;
+}
+
 li a:hover{
     color: #04446C;
 }
+
 /*Main Navigation CSS*/
 nav {
     background: #000000;
