@@ -4,22 +4,32 @@
 .editText{
     text-align: center;
     /*margin-top: 5%;*/
-    display: block;
-    background-color: grey;
-    margin-bottom: -40px;
+    /*display: block;*/
+    background-color: #C1D1DC;
+    margin-bottom: -38px;
+    color: black;
 }
+
+
+.editSpace .editText{
+    height: 100px;
+    line-height: 75px;
+}
+
 #expandButton{
     margin: 0 auto;
     display: block;
     background-color: hsl(44, 98%, 59%);
     border-radius: 10px;
     border-color: #FEFEFE;
+    color:black;
     border-width: 4px;
-    transform: translate(0, 50%);
+    transform: translate(0, 45%);
     width:200px;
 }
 #expandButton:hover {
     background-color: black;
+    color:#FEFEFE;
   }
 #navLink{
     margin-left: -4%;
@@ -115,4 +125,5 @@
   
   .container .btn:hover {
     background-color: black;
+    color:#FEFEFE;
   }
