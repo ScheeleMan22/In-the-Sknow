@@ -54,6 +54,10 @@ nav ul div.nav-items button {
     align-content: center;
     justify-content: center;
 }
+nav ul div.nav-items button:hover{
+    background-color: #04446C;
+    color: #FEFEFE
+}
 
 .search-box {
     background: white;
@@ -217,11 +221,13 @@ footer div.social-footer a{
     background-color: black;
     color:#FEFEFE;
   }
-#navLink{
+
+/*  #navLink{
     margin-left: -4%;
     margin-right: -4%;
     height: auto;
 }
+*/
 .list-group-flush{
     background-color: #04446C;
     padding-top: 1%;
