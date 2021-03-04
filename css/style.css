@@ -61,14 +61,28 @@
     margin-right: 4%;
     border-radius: 20px;
     display:inline-block;
-    transform: translate(285%, -200%);
+    transform: translate(275%, -200%);
     box-shadow: -1.5px 3px #3B6077;
 }
 #amenImg{
     margin-right: 4%;
     border-radius: 20px;
     display: inline-block;
-    transform: translate(130%, 2%);
+    transform: translate(113.5%, 2%);
+ 
+}
+#amenImg2{
+    margin-right: 4%;
+    border-radius: 20px;
+    display: inline-block;
+    transform: translate(113.5%, 1.5%);
+ 
+}
+#amenImg3{
+    margin-right: 4%;
+    border-radius: 20px;
+    display: inline-block;
+    transform: translate(113.5%, .5%);
  
 }
 #amenText{
