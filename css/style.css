@@ -1,8 +1,189 @@
+/*General CSS*/
+body {
+    margin: 0;
+    padding: 0;
+}
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+/*Main Navigation CSS*/
+nav {
+    background: #000000;
+    padding: 0 45px;
+}
 
+nav ul.main-nav {
+    margin: 0;
+    padding: 0;
+}
 
+nav ul div li a{
+    color: white;
+}
 
+nav ul li.logo {
+    flex: 1;
+}
+
+nav ul div.nav-items{
+    display: inline-flex;
+    padding: 0 45px;
+}
+
+nav ul div.nav-items a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 45px;
+}
+
+nav ul div.nav-items button {
+    border-radius: 20px;
+    width: 90px;
+    font-size: 20px;
+    padding: 0 45px;
+    border: none;
+    background-color: #FDC62E;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.search-box {
+    background: white;
+    border-radius: 40px;
+    height: 40px;
+    padding: 3px;
+}
+
+.search-button {
+    float: right;
+}
+
+.search-text {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0 10px;
+    color: #000000;
+    font-size: 20px; 
+    transition: 0.4s;
+    line-height: 34px;
+    width: 240px;
+}
+
+/*Footer CSS*/
+.footer-container {
+    background: #000000;
+    padding: 0 30px;
+    margin: 0;
+}
+
+.footer-items {
+    grid-area: LINKS;
+}
+
+.foot-logo {
+    grid-area: LOGO;
+}
+
+.social-footer {
+    grid-area: SOCIAL;
+}
+
+footer ul.footer-nav {
+    padding: 30px 0;
+    margin: 0;
+    display: grid;
+    align-content: center;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 
+    "LINKS LOGO SOCIAL";
+}
+
+.Contact {
+    grid-area: CON;
+}
+
+.Forum {
+    grid-area: FOR;
+}
+
+.FAQ {
+    grid-area: FAQ;
+}
+
+.Accessibility {
+    grid-area: ACC;
+}
+
+.Resources {
+    grid-area: RES;
+}
+
+footer ul div.foot-items {
+    padding: 0 20px;
+    padding-right: none;
+    flex: 1;
+    display: grid;
+    grid-column-gap: 45px;
+    grid-row-gap: 20px;
+    justify-content: start;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "CON ACC"
+    "FOR RES"
+    "FAQ FAQ";
+}
+
+footer ul div.foot-items li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer div.social-footer {
+    float: right;
+    display: inline-flex;
+    padding: 0;
+}
+
+footer div.social-footer a{
+    padding: 0 15px;
+}
+
+/*Hero Section CSS*/
+.hero {
+    background-image: url("../images/Hero_Image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    padding: 0 45px;
+}
+
+.hero h1 {
+    color: white;
+    width: 450px;
+}
+
+.hero img {
+    width: 25%;
+}
+
+.hero .fmm_btn {
+    background: #FCD66D;
+    border-radius: 20px;
+}
 
 /*Resorts Page CSS Styling*/
 .editText{
