@@ -2,6 +2,8 @@
 body {
     margin: 0;
     padding: 0;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 ul {
@@ -11,6 +13,10 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 .foot-items li a:hover{
@@ -93,7 +99,7 @@ nav ul div.nav-items button:hover{
 
 /*Footer CSS*/
 .footer-container {
-    background: #000000;
+    background: black;
     padding: 0 30px;
     margin: 0;
 }
@@ -198,7 +204,7 @@ footer div.social-footer a{
     transform: translate(55%, -30%);
 }
 
-button.btn {
+#fmm-btn {
     margin: 0 auto;
     margin-top: -44px;
     display: block;
@@ -213,9 +219,173 @@ button.btn {
     height: 50px;
 }
 
-button.btn:hover {
+#fmm-btn:hover {
     background-color: black;
     color: #FEFEFE;
+}
+
+/*Sign Up Form*/
+.welcome-msg {
+    grid-area: MSG;
+    display: inline-block;
+    text-align: left;
+    width: 78%;
+    transform: translate(0, 15%);
+}
+
+.welcome-msg h2 {
+    font-size: 48px;
+    padding-bottom: 50px;
+}
+
+.welcome-msg p {
+    font-size: 24px;
+}
+
+.signup-form {
+    grid-area: FORM;
+    display: inline-block;
+    transform: translate(0, 15%);
+}
+
+.pagelinks {
+    grid-area: PLINKS;
+    display: inline-flex;
+}
+
+.signup-container {
+    background-image: 
+    linear-gradient(to bottom, rgba(4, 68, 108, 1), rgba(0, 0, 0, 1));
+    color: white;
+    padding: 0 45px;
+    height: 1180px;
+    display: grid;
+    grid-template-columns: 54% 46%;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    " MSG FORM"
+    "PLINKS PLINKS";
+}
+
+.signup-form .email-form {
+    padding-bottom: 10px;
+}
+
+.signup-form .email-form p {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+.signup-form .email-form input {
+    width: 100%;
+    padding-right: 45px;
+    height: 35px;
+}
+
+.signup-form .password-form {
+    padding-bottom: 10px;
+}
+
+.signup-form .password-form p{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+.signup-form .password-form input{
+    width: 100%;
+    padding-right: 45px;
+    height: 35px;
+}
+
+.signup-form .confirm-form {
+    padding-bottom: 20px;
+}
+
+.signup-form .confirm-form p {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+.signup-form .confirm-form input {
+    width: 100%;
+    padding-right: 45px;
+    height: 35px;
+}
+
+.signup-cta {
+    padding-bottom: 60px;
+}
+
+#signup-btn {
+    margin: 0 auto;
+    display: block;
+    background-color: #FDC62E;
+    border-radius: 10px;
+    border-color: #FEFEFE;
+    font-family: 'Russo One', sans-serif;
+    border-width: 4px;
+    color: black;
+    transform: translate(0, 45%);
+    width: 200px;
+    height: 50px;
+}
+
+#signup-btn:hover {
+    background-color: black;
+    color: #FEFEFE;
+}
+
+.signup-form .spacer {
+    transform: translate(50%, 0);
+    padding-bottom: 20px;
+}
+
+.signup-form .form-icons {
+    display: inline-flex;
+    transform: translate(67%, 0);
+}
+
+.signup-form .form-icons a {
+    padding: 0 20px;
+}
+
+.signup-form .form-icons a:hover {
+    color: #FDC62E;
+}
+
+.signup-form .form-icons .google-su {
+    transform: translate(0, 4%);
+}
+
+.signup-form .form-icons .twitter-su {
+    transform: translate(0, 10%);
+}
+
+.pagelinks {
+    transform: translate(-45px, 109px);
+}
+
+.pagelinks .trending-resorts {
+    padding-right: 15px;
+}
+
+.pagelinks .trending-resorts img {
+    width: 465px;
+}
+
+.pagelinks .upcomingevents {
+    padding-right: 15px;
+}
+
+.pagelinks .upcomingevents img{
+    width: 465px;
+}
+
+.pagelinks .forum img{
+    width: 465px;
 }
 
 /*Resorts Page CSS Styling*/
