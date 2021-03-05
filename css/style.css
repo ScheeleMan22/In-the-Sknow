@@ -72,7 +72,6 @@ nav ul div.nav-items button:hover{
     border-radius: 40px;
     height: 40px;
     padding: 3px;
-    color:black;
 }
 
 .search-button {
@@ -341,4 +340,10 @@ footer div.social-footer a{
   .container .btn:hover {
     background-color: black;
     color:#FEFEFE;
+  }
+
+  #crestedHero{
+     max-width: 100%;
+      height: auto;
+      margin-bottom: -1px;
   }
