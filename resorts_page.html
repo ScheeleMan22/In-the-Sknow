@@ -7,22 +7,23 @@
 </head>
 <!--NAVIGATION CONTENT-->
 <nav>
-    <nav class="navbar navbar-light bg-dark">
-        <a class="navbar-brand"><img src="images/logo.png" width="100" height="100"></a>
-    <li id="navLink" class="nav-item">
-      <a class="nav-link" href="#">Resorts</a>
-    </li>
-    <li id="navLink" class="nav-item">
-      <a class="nav-link" href="#">Lodging</a>
-    </li>
-    <li id="navLink" class="nav-item">
-        <a class="nav-link" href="#">COVID-19</a>
-      </li>
-        <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </nav>
+  <ul class="main-nav">
+      <li class="logo"><img src="images/logo.png" alt="In The Sknow"></li>
+      <div class="nav-items">
+          <li><a href="#">Resorts</a></li>
+          <li><a href="#">Lodging</a></li>
+          <li><a href="#">COVID-19</a></li>
+          <li><div class="login-container">
+              <button type="button">Login</button>
+          </div></li>
+      </div>
+      <div class="search-box">
+          <input class="search-text" type="text" name="box" placeholder="Search">
+          <a class="search-button" href="#">
+              <img src="images/Search_Button_Icon.svg" alt="">
+          </a>
+      </div>
+  </ul>
 </nav>
 <!--BODY CONTENT-->
 <body>
@@ -104,11 +105,26 @@
 </body>
 
 <!--FOOTER CONTENT-->
-<footer>
-
-
-</footer>
-
+<div class="footer-container">
+  <footer>
+      <ul class="footer-nav">
+          <div class="foot-items">
+              <li class="Contact"><a href="#">Contact Us</a></li>
+              <li class="Forum"><a href="#">Forum</a></li>
+              <li class="FAQ"><a href="#">FAQ</a></li>
+              <li class="Accessibility"><a href="#">Accessibility</a></li>
+              <li class="Resources"><a href="#">Resources</a></li>
+          </div>
+          <div class="foot-logo"><img src="images/Footer_Logo.svg" alt="In The Sknow"></div>
+          <div class="social-footer">
+              <li><a href="#"><img src="images/Twitter_Icon.svg" alt="Twitter"></a></li>
+              <li><a href="#"><img src="images/Facebook_Icon.svg" alt="Facebook"></a></li>
+              <li><a href="#"><img src="images/Instagram_Icon.svg" alt="Instagram"></a></li>
+              <li><a href="#"><img src="images/Reddit_Icon.svg" alt="Reddit"></a></li>
+          </div>
+      </ul>
+  </footer>
+</div>
 
 
 

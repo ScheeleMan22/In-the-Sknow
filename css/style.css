@@ -13,6 +13,14 @@ ul {
     justify-content: center;
 }
 
+.foot-items li a:hover{
+    color: #04446C;
+}
+
+li a:hover{
+    color: #04446C;
+}
+
 /*Main Navigation CSS*/
 nav {
     background: #000000;
@@ -53,6 +61,10 @@ nav ul div.nav-items button {
     display: flex;
     align-content: center;
     justify-content: center;
+}
+nav ul div.nav-items button:hover{
+    background-color: #04446C;
+    color: #FEFEFE
 }
 
 .search-box {
@@ -238,11 +250,13 @@ button.btn:hover {
     background-color: black;
     color:#FEFEFE;
   }
-#navLink{
+
+/*  #navLink{
     margin-left: -4%;
     margin-right: -4%;
     height: auto;
 }
+*/
 .list-group-flush{
     background-color: #04446C;
     padding-top: 1%;
@@ -257,7 +271,7 @@ button.btn:hover {
 }
 #mountImg{
     margin-right: 4%;
-    margin-left: 4%;
+    margin-left: 2%;
     margin-top: 2%;
     margin-bottom: 2%;
     border-radius: 20px;
@@ -329,7 +343,7 @@ button.btn:hover {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-215%, 140%);
+    transform: translate(-228%, 140%);
     -ms-transform: translate(50%, 50%);
     background-color: #FDC62E;
     color: black;
