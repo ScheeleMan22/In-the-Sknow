@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <title>In_the_Sknow_Homepage</title>
 </head>
 <body>
@@ -11,7 +13,7 @@
     <header>
         <nav>
             <ul class="main-nav">
-                <li class="logo"><img src="images/logo.png" alt="In The Sknow"></li>
+                <li class="logo"><a href="#index.html"><img src="images/logo.png" alt="In The Sknow"></a></li>
                 <div class="nav-items">
                     <li><a href="#">Resorts</a></li>
                     <li><a href="#">Lodging</a></li>
@@ -31,13 +33,61 @@
     </header>
     <!--HERO SECTION-->
     <div class="hero">
-        <h1>Here to help you 
+        <h1 class="hero-txt">Here to help you 
             discover, learn, and 
             conquer your next 
             mountain.</h1>
-        <img src="images/Branding.svg" alt="In the Sknow">
-        <div class="fmm_btn">
-            <a href="#">Find My Mountain</a>
+        <img src="/images/Branding.svg" alt="In the Sknow">
+    </div>
+    
+    <button id="fmm-btn" type="button" class='btn btn-primary'>Find My Mountain</button>
+
+    <!--SIGN UP FORM SECTION-->
+    <div class="signup-container">
+        <div class="welcome-msg">
+            <h2>New to In The Sknow? Welcome!</h2>
+            <p>Joining the In The Sknow community allows you to stay in the loop with events,
+               interact with our forum, and helps us remember your preferences for your next visit.
+            </p>
+        </div>
+        <div class="signup-form">
+            <div class="email-form">
+                <p>Email</p>
+                <input class="email-txt" type="text">
+            </div>
+            <div class="password-form">
+                <p>Password</p>
+                <input class="password-txt" type="text">
+            </div>
+            <div class="confirm-form">
+                <p>Confirm Password</p>
+                <input class="confirm-txt" type="text">
+            </div>
+
+            <div class="signup-cta">
+                <button id="signup-btn" type="button" class='btn btn-primary'>Sign Me Up!</button>
+            </div>
+
+            <div class="spacer">
+                <p>Or</p>
+            </div>
+
+            <div class="form-icons">
+                <li class="twitter-su"><a href="#"><img src="images/Twitter_Form.svg" alt="Twitter"></a></li>
+                <li class="facebook-su"><a href="#"><img src="images/Facebook_Form.svg" alt="Facebook"></a></li>
+                <li class=google-su><a href="#"><img src="images/Google_Form.svg" alt="Google"></a></li>
+            </div>
+        </div>
+        <div class="pagelinks">
+            <div class="trending-resorts">
+                <a href="#"><img src="images/TrendingResorts_Img.svg" alt="Trending Resort"></a>
+            </div>
+            <div class="upcomingevents">
+                <a href="#"><img src="images/UpcomingEvents_Img.svg" alt="Upcoming Events"></a>
+            </div>
+            <div class="forum">
+                <a href="#"><img src="images/Forum_Img.svg" alt="Forum"></a>
+            </div>
         </div>
     </div>
     <!--FOOTER SECTION-->
