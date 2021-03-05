@@ -404,6 +404,17 @@ footer div.social-footer a{
     height: 100px;
     line-height: 75px;
 }
+.aboutSpace .aboutText{
+    height: 400px;
+    max-width: 100%;
+}
+.aboutText{
+    text-align: left;
+    padding: 5%;
+    background-color: #47687D;
+    color: #FEFEFE;
+    max-width: 40ch;
+}
 
 #expandButton{
     margin: 0 auto;
