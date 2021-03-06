@@ -395,7 +395,7 @@ footer div.social-footer a{
     /*margin-top: 5%;*/
     /*display: block;*/
     background-color: #C1D1DC;
-    margin-bottom: -38px;
+    /*margin-bottom: -38px;*/
     color: black;
     /*background: rgba(193,209,220,26%)*/
 }
@@ -408,8 +408,9 @@ footer div.social-footer a{
 .aboutSpace .aboutText{
     height: 200px;
     max-width: 100%;
-    background: rgba(71, 104, 125, 0.26);    
+    background: rgba(71, 104, 125, 74%);    
     transform: translate(0, -840.5%);
+    position: relative;
 }
 
 .aboutText{
@@ -419,6 +420,36 @@ footer div.social-footer a{
     color: #FFFFFF;
     max-width: 40ch;
     /*opacity: .7;*/
+}
+.infoSpace .infoText{
+    background: rgba(4,68,108,25%);
+    transform: translate(0, -339.5%);
+    padding-left: 5%;
+    padding-top: 40px;
+    height: 500px;
+}
+.knowText{
+    transform: translate(0, -8750%);
+    padding-left: 5%;
+    color:#FEFEFE;
+}
+.highlightsHeader{
+    transform: translate(0, -4300%);
+    padding-left: 5%;
+    color:#FEFEFE;
+}
+.highList{
+    display: block;
+    padding-left: 5%;
+    transform: translate(0, -2845%);
+    color:#FEFEFE;
+}
+
+ul .highList{
+    list-style-image: url('/images/check_mark.png');
+}
+.infoText{
+    color:#FEFEFE;
 }
 
 #expandButton{
