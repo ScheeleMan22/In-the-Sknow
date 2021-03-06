@@ -429,31 +429,30 @@ footer div.social-footer a{
 }
 .infoSpace .infoText{
     background: rgba(4,68,108,25%);
-    transform: translate(0, -339.5%);
+    transform: translate(0, -283%);
     padding-left: 5%;
     padding-top: 40px;
-    height: 500px;
+    height: 600px;
 }
 .knowText{
-    transform: translate(0, -8750%);
+    transform: translate(0, -9200%);
     padding-left: 5%;
     color:#FEFEFE;
 }
 .highlightsHeader{
-    transform: translate(0, -4300%);
+    transform: translate(0, -4500%);
     padding-left: 5%;
     color:#FEFEFE;
 }
 .highList{
     display: block;
-    padding-left: 5%;
-    transform: translate(0, -2845%);
+    padding-left: 10%;
+    transform: translate(0, -3000%);
     color:#FEFEFE;
+    list-style-type:'✓';
+
 }
 
-ul .highList{
-    list-style-image: url('https://scheeleman22.github.io/In-the-Sknow/images/check_mark.png');
-}
 .infoText{
     color:#FEFEFE;
 }
