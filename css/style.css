@@ -116,6 +116,9 @@ nav ul div.nav-items button:hover{
 .social-footer {
     grid-area: SOCIAL;
 }
+.social-footer:hover{
+    background-image:hsl(44, 98%, 59%);
+}
 
 footer ul.footer-nav {
     padding: 30px 0;
@@ -418,7 +421,9 @@ footer div.social-footer a{
     transform: translate(0, -840.5%);
     position: relative;
 }
-
+.aboutSpace{
+    max-height: 1660px;
+}
 .aboutText{
     text-align: left;
     padding: 5%;
@@ -472,6 +477,9 @@ footer div.social-footer a{
 
 .infoText{
     color:#FEFEFE;
+}
+.mapImg{
+    transform: translate(150%, -520%);
 }
 
 #expandButton{
