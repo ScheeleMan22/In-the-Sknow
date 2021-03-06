@@ -102,6 +102,7 @@ nav ul div.nav-items button:hover{
     background: black;
     padding: 0 30px;
     margin: 0;
+    z-index: 1;
 }
 
 .footer-items {
@@ -200,8 +201,9 @@ footer div.social-footer a{
 }
 
 .hero img {
-    width: 25%;
-    transform: translate(55%, -30%);
+    width: 30%;
+    height: 30%;
+    transform: translate(30%, 30%);
 }
 
 #fmm-btn {
@@ -258,7 +260,7 @@ footer div.social-footer a{
     linear-gradient(to bottom, rgba(4, 68, 108, 1), rgba(0, 0, 0, 1));
     color: white;
     padding: 0 45px;
-    height: 1180px;
+    height: 1050px;
     display: grid;
     grid-template-columns: 54% 46%;
     grid-template-rows: auto auto;
@@ -365,27 +367,31 @@ footer div.social-footer a{
 }
 
 .pagelinks {
-    transform: translate(-45px, 109px);
+    transform: translate(-57px, 17.8%);
+    height: 85%;
 }
 
 .pagelinks .trending-resorts {
-    padding-right: 15px;
+    padding-right: 0;
 }
 
 .pagelinks .trending-resorts img {
-    width: 465px;
+    width: 485px;
+    height: 100%;
 }
 
 .pagelinks .upcomingevents {
-    padding-right: 15px;
+    padding-right: 0;
 }
 
 .pagelinks .upcomingevents img{
-    width: 465px;
+    width: 485px;
+    height: 100%;
 }
 
 .pagelinks .forum img{
-    width: 465px;
+    width: 485px;
+    height: 100%;
 }
 
 /*Resorts Page CSS Styling*/
