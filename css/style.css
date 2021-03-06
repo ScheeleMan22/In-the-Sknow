@@ -427,6 +427,7 @@ footer div.social-footer a{
     max-width: 40ch;
     /*opacity: .7;*/
 }
+
 .infoSpace .infoText{
     background: rgba(4,68,108,25%);
     transform: translate(0, -283%);
@@ -439,14 +440,30 @@ footer div.social-footer a{
     padding-left: 5%;
     color:#FEFEFE;
 }
+.airportText{
+    transform: translate(0, -4370%);
+    padding-left: 5%;
+    color:#FEFEFE;
+    max-width: 60ch;
+}
+.moreText{
+    padding-left: 5%;
+    transform: translate(0, -7400%);
+    color:#FEFEFE;
+}
 .highlightsHeader{
     transform: translate(0, -4500%);
     padding-left: 5%;
     color:#FEFEFE;
 }
+.airportsHead{
+    transform: translate(0, -4375%);
+    padding-left: 5%;
+    color:#FEFEFE;
+}
 .highList{
     display: block;
-    padding-left: 10%;
+    padding-left: 6%;
     transform: translate(0, -3000%);
     color:#FEFEFE;
     list-style-type:'✓';
