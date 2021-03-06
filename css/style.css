@@ -422,7 +422,7 @@ footer div.social-footer a{
 }
 
 .pagelinks .trending-resorts:hover {
-    transform: scale(1.1);
+    transform: scale(1.1) translate(0, -4.6%);
 }
 
 .pagelinks .upcomingevents {
@@ -445,6 +445,14 @@ footer div.social-footer a{
     cursor: pointer;
 } 
 
+.pagelinks .upcomingevents {
+    transition: all .2s ease-in-out;
+}
+
+.pagelinks .upcomingevents:hover {
+    transform: scale(1.1) translate(0, -4.6%);
+}
+
 .pagelinks .forum {
     position: relative;
     width: 100%;
@@ -464,6 +472,14 @@ footer div.social-footer a{
     border: none;
     cursor: pointer;
 } 
+
+.pagelinks .forum {
+    transition: all .2s ease-in-out;
+}
+
+.pagelinks .forum:hover {
+    transform: scale(1.1) translate(0, -4.6%);
+}
 
 /*Resorts Page CSS Styling*/
 
