@@ -492,79 +492,11 @@ footer div.social-footer a{
     color: black;
     /*background: rgba(193,209,220,26%)*/
 }
-
 .editSpace .editText{
-    height: 100px;
+    height: auto;
+    padding-bottom: 1%;
     line-height: 75px;
 }
-.aboutSpace .aboutText{
-    height: auto;
-    max-width: 100%;
-    background: rgba(71, 104, 125, 74%);    
-    transform: translate(0, -840.5%);
-    position: relative;
-}
-.aboutSpace{
-    max-height: 1660px;
-}
-.aboutText{
-    text-align: left;
-    padding: 5%;
-    background-color: #47687D;
-    color: #FFFFFF;
-    max-width: 40ch;
-    /*opacity: .7;*/
-}
-
-.infoSpace .infoText{
-    background: rgba(4,68,108,25%);
-    transform: translate(0, -283%);
-    padding-left: 5%;
-    padding-top: 40px;
-    height: 600px;
-}
-.knowText{
-    transform: translate(0, -9200%);
-    padding-left: 5%;
-    color:#FEFEFE;
-}
-.airportText{
-    transform: translate(0, -4370%);
-    padding-left: 5%;
-    color:#FEFEFE;
-    max-width: 60ch;
-}
-.moreText{
-    padding-left: 5%;
-    transform: translate(0, -7400%);
-    color:#FEFEFE;
-}
-.highlightsHeader{
-    transform: translate(0, -4500%);
-    padding-left: 5%;
-    color:#FEFEFE;
-}
-.airportsHead{
-    transform: translate(0, -4375%);
-    padding-left: 5%;
-    color:#FEFEFE;
-}
-.highList{
-    display: block;
-    padding-left: 6%;
-    transform: translate(0, -3000%);
-    color:#FEFEFE;
-    list-style-type:'✓';
-
-}
-
-.infoText{
-    color:#FEFEFE;
-}
-.mapImg{
-    transform: translate(150%, -520%);
-}
-
 #expandButton{
     margin: 0 auto;
     display: block;
@@ -580,13 +512,6 @@ footer div.social-footer a{
     background-color: black;
     color:#FEFEFE;
   }
-
-/*  #navLink{
-    margin-left: -4%;
-    margin-right: -4%;
-    height: auto;
-}
-*/
 .list-group-flush{
     background-color: #04446C;
     padding-top: 1%;
@@ -656,20 +581,11 @@ footer div.social-footer a{
     text-shadow: .5px 3.5px #3B6077;
     margin-top: 2%;
 }
-
-
-
-
-
-
 .container {
     position: relative;
     width: 100%;
     margin: 2%;
   }
-
-
-  
   /* Style the button and place it in the middle of the container/image */
   .container .btn {
     position: absolute;
@@ -694,7 +610,78 @@ footer div.social-footer a{
     background-color: black;
     color:#FEFEFE;
   }
+/*----------------------------------Crested Butte CSS Styling----------------------------------*/
+.aboutSpace .aboutText{
+    height: auto;
+    max-width: 100%;
+    background: rgba(71, 104, 125, 74%);    
+    /*transform: translate(0, -840.5%);*/
+    position: absolute;
+}
+.aboutSpace{
+    /*max-height: auto;*/
+}
+.aboutText{
+    text-align: left;
+    padding: 5%;
+    /*background-color: #47687D;*/
+    color: #FFFFFF;
+    /*max-width: 40ch;*/
+    /*opacity: .7;*/
+}
 
+.infoSpace .infoText{
+    background: rgba(4,68,108,25%);
+    transform: translate(0, -283%);
+    padding-left: 5%;
+    padding-top: 40px;
+    height: 600px;
+}
+.knowText{
+    transform: translate(0, -9200%);
+    padding-left: 5%;
+    color:#FEFEFE;
+}
+.airportText{
+    transform: translate(0, -4370%);
+    padding-left: 5%;
+    color:#FEFEFE;
+    max-width: 60ch;
+}
+.moreText{
+    padding-left: 5%;
+    transform: translate(0, -7400%);
+    color:#FEFEFE;
+}
+.highlightsHeader{
+    transform: translate(0, -4500%);
+    padding-left: 5%;
+    color:#FEFEFE;
+}
+.airportsHead{
+    transform: translate(0, -4375%);
+    padding-left: 5%;
+    color:#FEFEFE;
+}
+.highList{
+    display: block;
+    padding-left: 6%;
+    transform: translate(0, -3000%);
+    color:#FEFEFE;
+    list-style-type:'✓';
+}
+.infoText{
+    color:#FEFEFE;
+}
+.mapImg{
+    transform: translate(150%, -520%);
+}
+/*  #navLink{
+    margin-left: -4%;
+    margin-right: -4%;
+    height: auto;
+}
+*/
   #crestedHero{
      max-width: 100%;
       height: auto;
